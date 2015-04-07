@@ -1,17 +1,17 @@
 [submodule "/home/ian/.vim/bundle/auto-pairs"]
-	path = /home/ian/.vim/bundle/auto-pairs
+	path = bundle/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
 [submodule "/home/ian/.vim/bundle/tlib_vim"]
-	path = /home/ian/.vim/bundle/tlib_vim
+	path = bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
 [submodule "/home/ian/.vim/bundle/vim-addon-mw-utils"]
-	path = /home/ian/.vim/bundle/vim-addon-mw-utils
+	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "/home/ian/.vim/bundle/vim-snipmate"]
-	path = /home/ian/.vim/bundle/vim-snipmate
+	path = bundle/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
 [submodule "/home/ian/.vim/bundle/vim-snippets"]
-	path = /home/ian/.vim/bundle/vim-snippets
+	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
