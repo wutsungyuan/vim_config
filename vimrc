@@ -1,8 +1,11 @@
 execute pathogen#infect()
+set nocompatible      " We're running Vim, not Vi!
 syntax on
+filetype on           " Enable filetype detection
 filetype plugin indent on
 inoremap jk <esc>
 set rnu
+set number
 let mapleader = ","
 nmap <leader>p :NERDTree<cr>
 nmap <leader>[ :CtrlP<cr>
