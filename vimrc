@@ -9,8 +9,11 @@ set number
 let mapleader = ","
 nmap <leader>p :NERDTree<cr>
 nmap <leader>[ :CtrlP<cr>
+set autoindent
 set expandtab
 set shiftwidth=2
+set smartindent
+set smarttab
 set softtabstop=2
 let g:UltiSnipsExpandTrigger="<c-g>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
@@ -22,3 +25,4 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 runtime macros/matchit.vim
+autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
