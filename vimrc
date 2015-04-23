@@ -1,8 +1,9 @@
 execute pathogen#infect()
 set nocompatible      " We're running Vim, not Vi!
-syntax on
+set background=dark
 filetype on           " Enable filetype detection
 filetype plugin indent on
+syntax on
 inoremap jk <esc>
 set rnu
 set number
@@ -27,7 +28,6 @@ set splitright
 runtime macros/matchit.vim
 autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go map <leader>e :!go run %<CR>
 au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>c <Plug>(go-coverage)
