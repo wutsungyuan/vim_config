@@ -64,9 +64,6 @@
 [submodule "bundle/neocomplete.vim"]
 	path = bundle/neocomplete.vim
 	url = https://github.com/Shougo/neocomplete.vim
-[submodule "bundle/neosnippet.vim"]
-	path = bundle/neosnippet.vim
-	url = https://github.com/Shougo/neosnippet.vim
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir
