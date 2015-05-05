@@ -18,6 +18,8 @@ set smartindent
 set smarttab
 set softtabstop=2
 
+set completeopt=menu
+
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<leader><tab>"
 "let g:UltiSnipsJumpForwardTrigger="<c-b>"
