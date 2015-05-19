@@ -133,3 +133,5 @@ endif
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 "
+
+:set omnifunc=javascriptcomplete#CompleteJS
