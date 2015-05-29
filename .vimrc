@@ -1,6 +1,8 @@
 execute pathogen#infect()
 set nocompatible      " We're running Vim, not Vi!
 set background=dark
+" colorscheme gruvbox
+colorscheme Tomorrow-Night
 filetype on           " Enable filetype detection
 filetype plugin indent on
 syntax on
@@ -133,3 +135,12 @@ endif
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 "
+
+:set omnifunc=javascriptcomplete#CompleteJS
+let g:used_javascript_libs = 'underscore,react'
+
+set mouse+=a
+if &term =~ '^screen'
+    " tmux knows the extended mouse mode
+    set ttymouse=xterm2
+endif
